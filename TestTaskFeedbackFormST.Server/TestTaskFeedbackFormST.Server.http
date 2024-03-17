@@ -1,0 +1,6 @@
+@TestTaskFeedbackFormST.Server_HostAddress = http://localhost:5115
+
+GET {{TestTaskFeedbackFormST.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

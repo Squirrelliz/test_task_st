@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "1Zx599/Av8uMAdG07OEyXVfzeKb4d7TPnRKPmeMvRHA=",
+  "Source": "TestTaskFeedbackFormST.Server",
+  "BasePath": "_content/TestTaskFeedbackFormST.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\testtaskfeedbackformst.client\\testtaskfeedbackformst.client.esproj",
+      "Version": 2,
+      "Source": "testtaskfeedbackformst.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,33 +1,26 @@
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System.Text.Json.Serialization;
+using TestTaskFeedbackFormST.Server.DataContext;
+using TestTaskFeedbackFormST.Server.Services;
+using TestTaskFeedbackFormST.Server.Repositories;
 using static System.Console;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<DbOfUserRequestsContext>(s=>s.UseSqlServer("Name=ConnectionStrings:DefaultConnection"));
+builder.Services.AddControllers();
 
-builder.Services.AddControllers(options =>
-{
-    WriteLine("Default output formatters:");
-    foreach (IOutputFormatter formatter in options.OutputFormatters)
-    {
-        OutputFormatter? mediaFormatter = formatter as OutputFormatter;
-        if (mediaFormatter == null)
-        {
-            WriteLine($" {formatter.GetType().Name}");
-        }
-        else // класс форматера вывода с поддерживаемыми медиаформатами
-        {
-            WriteLine(" {0}, Media types: {1}",
-            arg0: mediaFormatter.GetType().Name,
-            arg1: string.Join(", ",
-            mediaFormatter.SupportedMediaTypes));
-        }
-    }
-})
-.AddXmlDataContractSerializerFormatters()
-.AddXmlSerializerFormatters();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddTransient<IdirectoryOfMessageTopicsService, DirectoryOfMessageTopicsService>();
+builder.Services.AddTransient<ImessageService, MessageService>();
+builder.Services.AddTransient<IсontactRepository, ContactRepository>();
+builder.Services.AddTransient<ImessageRepository, MessageRepository>();
+builder.Services.AddTransient<IdirectoryOfMessageTopicRepository, DirectoryOfMessageTopicRepository>();
 
 var app = builder.Build();
 

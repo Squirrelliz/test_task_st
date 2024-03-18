@@ -3,40 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\implementations\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\implementations\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\services\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\services\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\i\u0441ontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\i\u0441ontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\services\\implementations\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\services\\implementations\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\directoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\directoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\controllers\\directoryofmessagetopiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\controllers\\directoryofmessagetopiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\services\\interfaces\\idirectoryofmessagetopicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\services\\interfaces\\idirectoryofmessagetopicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\implementations\\directoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\implementations\\directoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\interfaces\\idirectoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\interfaces\\idirectoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\implementations\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\implementations\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\interfaces\\i\u0441ontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\interfaces\\i\u0441ontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\models\\directoryofmessagetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\models\\directoryofmessagetopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\repositories\\idirectoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\repositories\\idirectoryofmessagetopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\models\\dtomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\models\\dtomessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\services\\implementations\\directoryofmessagetopicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\services\\implementations\\directoryofmessagetopicsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +79,12 @@
       "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\datacontext\\dbofuserrequestscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\controllers\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\controllers\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\testtaskfeedbackformst.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\testtaskfeedbackformst.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|c:\\users\\squir\\source\\repos\\testtaskfeedbackformst\\testtaskfeedbackformst.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{523C7045-DBD2-4BF6-8E92-5A691ECB8631}|TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.csproj|solutionrelative:testtaskfeedbackformst.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,140 +94,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\MessageRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\MessageRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\MessageRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\MessageRepository.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAwwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:25:15.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\ImessageRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\ImessageRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\ImessageRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\ImessageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:24:32.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DirectoryOfMessageTopicRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\DirectoryOfMessageTopicRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\DirectoryOfMessageTopicRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\DirectoryOfMessageTopicRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\DirectoryOfMessageTopicRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAA0wCsAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:15:43.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "I\u0441ontactRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\I\u0441ontactRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\I\u0441ontactRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\I\u0441ontactRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\I\u0441ontactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T19:46:37.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\ContactRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\ContactRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\ContactRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\ContactRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T19:47:22.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Message.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\Message.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Message.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\Message.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:23:52.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IdirectoryOfMessageTopicRepository.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\IdirectoryOfMessageTopicRepository.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\IdirectoryOfMessageTopicRepository.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\IdirectoryOfMessageTopicRepository.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\IdirectoryOfMessageTopicRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:14:02.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DirectoryOfMessageTopic.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:14:15.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DbOfUserRequestsContext.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAuwAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T17:15:05.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T15:15:41.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Program.cs",
               "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Program.cs",
               "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Program.cs",
               "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T14:45:32.211Z"
+              "WhenOpened": "2024-03-18T16:53:08.564Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImessageService.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Interfaces\\ImessageService.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Services\\Interfaces\\ImessageService.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Interfaces\\ImessageService.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Services\\Interfaces\\ImessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:23:46.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Implementations\\MessageService.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Services\\Implementations\\MessageService.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Implementations\\MessageService.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Services\\Implementations\\MessageService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:02:01.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Controllers\\MessageController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:11:03.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\MessageRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\MessageRepository.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwC0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:28:20.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DirectoryOfMessageTopicController.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\DirectoryOfMessageTopicController.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Controllers\\DirectoryOfMessageTopicController.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\DirectoryOfMessageTopicController.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Controllers\\DirectoryOfMessageTopicController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:22:22.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdirectoryOfMessageTopicsService.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Interfaces\\IdirectoryOfMessageTopicsService.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Services\\Interfaces\\IdirectoryOfMessageTopicsService.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Interfaces\\IdirectoryOfMessageTopicsService.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Services\\Interfaces\\IdirectoryOfMessageTopicsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:22:54.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DirectoryOfMessageTopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\DirectoryOfMessageTopicRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\DirectoryOfMessageTopicRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\DirectoryOfMessageTopicRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\DirectoryOfMessageTopicRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCcAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:32:43.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IdirectoryOfMessageTopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\IdirectoryOfMessageTopicRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\IdirectoryOfMessageTopicRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\IdirectoryOfMessageTopicRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\IdirectoryOfMessageTopicRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:03:19.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\ContactRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Implementations\\ContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:41:16.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "I\u0441ontactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\I\u0441ontactRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\I\u0441ontactRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\I\u0441ontactRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\I\u0441ontactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:55:13.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\ImessageRepository.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\ImessageRepository.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\ImessageRepository.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Repositories\\Interfaces\\ImessageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:03:12.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,69 +261,114 @@
               "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:50:49.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DirectoryOfMessageTopic.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\DirectoryOfMessageTopic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T14:34:36.339Z"
+              "WhenOpened": "2024-03-18T17:29:29.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "DTOMessage.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DTOMessage.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\DTOMessage.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\DTOMessage.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\DTOMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:29:30.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Message.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:29:26.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:29:29.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DirectoryOfMessageTopicsService.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Implementations\\DirectoryOfMessageTopicsService.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Services\\Implementations\\DirectoryOfMessageTopicsService.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Services\\Implementations\\DirectoryOfMessageTopicsService.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Services\\Implementations\\DirectoryOfMessageTopicsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T15:22:48.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DbOfUserRequestsContext.cs",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\DataContext\\DbOfUserRequestsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T17:18:42.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestTaskFeedbackFormST.Server.http",
+              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.http",
+              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.http",
+              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.http",
+              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\TestTaskFeedbackFormST.Server.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-18T16:52:23.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\WeatherForecast.cs",
               "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\WeatherForecast.cs",
               "RelativeToolTip": "TestTaskFeedbackFormST.Server\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T14:34:32.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\Class.cs",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Controllers\\Class.cs",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Controllers\\Class.cs",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Controllers\\Class.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T16:15:38.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\appsettings.Development.json",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-16T14:54:26.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\appsettings.json",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-16T14:42:56.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TestTaskFeedbackFormST.Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\squir\\source\\repos\\TestTaskFeedbackFormST\\TestTaskFeedbackFormST.Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TestTaskFeedbackFormST.Server\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-16T14:55:16.138Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T16:52:32.166Z",
+              "EditorCaption": ""
             }
           ]
         }

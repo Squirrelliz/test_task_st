@@ -25,9 +25,9 @@ namespace TestTaskFeedbackFormST.Server.Repositories
             return affected == 1 ? d : null;
         }
 
-        public async Task<IEnumerable<DirectoryOfMessageTopic>> RetrieveAllAsync()
+        public IEnumerable<string> RetrieveAllAsync()
         {
-            return await db.DirectoryOfMessageTopics.AsNoTracking().ToListAsync();
+            return  db.DirectoryOfMessageTopics.Select(d=>d.Topic).AsNoTracking().ToArray();
         }
 
         public async Task<DirectoryOfMessageTopic?> RetrieveAsync(string topic)

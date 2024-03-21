@@ -3,6 +3,6 @@ namespace TestTaskFeedbackFormST.Server.Services
 {
     public interface IdirectoryOfMessageTopicsService
     {
-        Task<IEnumerable<DirectoryOfMessageTopic?>> RetrieveAllAsync();
+        IEnumerable<string> RetrieveAllAsync();
     }
 }

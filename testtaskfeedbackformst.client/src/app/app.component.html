@@ -1,24 +1,79 @@
-﻿<h1 id="tableLabel">Weather forecast</h1>
+<h1 *ngIf="!topics"> ошибка загрузки формы </h1>
+@if(!done){
+<h1 *ngIf="topics"> Напишите нам </h1>
+<div *ngIf="topics">
+  <div>
+    <label>Ваше имя</label><br>
+    <input name="name" [(ngModel)]="message.name" #name="ngModel" required />
+    <div [hidden]="name.valid || name.untouched" class="alert">
+      Не указано имя
+    </div>
+  </div>
+  <div>
+    <label>Ваш email</label><br>
+    <input type="email" name="email" [(ngModel)]="message.email" #email="ngModel" ngControl="email" email required />
+    <div [hidden]="email.valid || email.untouched" class="alert">
+      Некорректный email
+    </div>
+  </div>
+  <div>
+    <label>Ваш телефон</label><br>
+    <input name="phone" prefix="+7" [(ngModel)]="message.phone" #phone="ngModel" required mask="(000) 000-00-00"
+           placeholder="+7 (XXX) XXX-XX-XX" />
+    <div [hidden]="phone.valid || phone.untouched" class="alert">
+      Некорректный телефон
+    </div>
 
-<p>This component demonstrates fetching data from the server.</p>
-
-<p *ngIf="!forecasts"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
-
-<table *ngIf="forecasts">
-    <thead>
-        <tr>
-            <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
-            <th>Summary</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let forecast of forecasts">
-            <td>{{ forecast.date }}</td>
-            <td>{{ forecast.temperatureC }}</td>
-            <td>{{ forecast.temperatureF }}</td>
-            <td>{{ forecast.summary }}</td>
-        </tr>
-    </tbody>
-</table>
+  </div>
+  <div>
+    <label>Тема</label><br>
+    <select name="topics_" [(ngModel)]="message.topic" #topics_="ngModel" required>
+      @for(topic of topics; track $index){
+      <option [value]="topic">
+        {{topic}}
+      </option>
+      }
+    </select>
+    <div [hidden]="topics_.valid || topics_.untouched" class="alert">
+      Не указана тема
+    </div>
+  </div>
+  <div>
+    <label>Ваше сообщение</label><br>
+    <input name="message_" type="text" [(ngModel)]="message.messageText" #message_="ngModel" required />
+    <div [hidden]="message_.valid || message_.untouched" class="alert">
+      Некорректное сообщение
+    </div>
+  </div>
+  <form >
+    <ngx-recaptcha2 #captchaElem
+                    [siteKey]="siteKey">
+    </ngx-recaptcha2>
+  </form>
+  <button (click)="postMessage(message)">Отправить</button>
+</div>
+}
+@if(done){
+<div >
+  <p>
+    <label>Имя:</label><br>
+    {{receivedMessage.name}}
+  </p>
+  <p>
+    <label>Email:</label><br>
+    {{receivedMessage.email}}
+  </p>
+  <p>
+    <label>Телефон:</label><br>
+    {{receivedMessage.phone}}
+  </p>
+  <p>
+    <label>Тема:</label><br>
+    {{receivedMessage.topic}}
+  </p>
+  <p>
+    <label>Сообщение</label><br>
+    {{receivedMessage.messageText}}
+  </p>
+</div>
+}

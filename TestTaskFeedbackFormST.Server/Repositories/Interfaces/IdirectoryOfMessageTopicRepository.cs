@@ -7,7 +7,7 @@ namespace TestTaskFeedbackFormST.Server.Repositories
     public interface IdirectoryOfMessageTopicRepository
     {
         Task<DirectoryOfMessageTopic?> CreateAsync(DirectoryOfMessageTopic d);
-        Task<IEnumerable<DirectoryOfMessageTopic>> RetrieveAllAsync();
+        IEnumerable<string> RetrieveAllAsync();
         Task<DirectoryOfMessageTopic?> RetrieveAsync(string topic);
         Task<DirectoryOfMessageTopic?> RetrieveAsync(int id);
         /*

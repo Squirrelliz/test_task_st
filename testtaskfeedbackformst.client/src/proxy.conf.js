@@ -5,8 +5,7 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 
 const PROXY_CONFIG = [
   {
-    context: [
-      "/DirectoryOfMessageTopic",
+    context: ["/api/DirectoryOfMessageTopic", "/api/Message",
     ],
     target,
     secure: false

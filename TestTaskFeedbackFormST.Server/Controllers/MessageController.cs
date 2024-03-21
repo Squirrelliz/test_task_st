@@ -14,25 +14,25 @@ namespace TestTaskFeedbackFormST.Server.Controllers
            this.serviceMessage = serviceMessage;
         }
 
-        [HttpGet("{id}", Name = nameof(GetMessage))] // именованный маршрут
-        [ProducesResponseType(200, Type = typeof(DTOMessage))]
+        [HttpGet("{id}")] 
+        [ProducesResponseType(200)]
         [ProducesResponseType(404)]
-        public async Task<IActionResult> GetMessage(int id)
+        public async Task<ActionResult<DTOMessage>> GetMessage(int id)
         {
             DTOMessage? m = await serviceMessage.RetrieveAsync(id);
-            if (m == null)
+            if (m is null)
             {
-                return NotFound(); // 404 – ресурс не найден
+                return NotFound("FUCKING BUG"); // 404 – ресурс не найден
             }
             return Ok(m); // 200 – OK, с клиентом в теле
         }
 
         [HttpPost]
-        [ProducesResponseType(201, Type = typeof(DTOMessage))]
+        [ProducesResponseType(201)]
         [ProducesResponseType(400)]
-        public async Task<IActionResult> CreateMessage([FromBody] DTOMessage m)
+        public async Task<ActionResult<DTOMessage>> CreateMessage( DTOMessage m)
         {
-            if (m == null)
+            if (m is null)
             {
                 return BadRequest(); // 400 – некорректный запрос
             }else if (!ModelState.IsValid)
@@ -47,10 +47,10 @@ namespace TestTaskFeedbackFormST.Server.Controllers
             }
             else
             {
-                return CreatedAtRoute( // 201 – ресурс создан
-                          routeName: nameof(GetMessage),
-                          routeValues: new { id = addedMessage.Id },
-                          value: m);
+                return CreatedAtAction( // 201 – ресурс создан
+                           nameof(GetMessage),
+                          new { id = addedMessage.Id },
+                           m);
             }
         }
     }

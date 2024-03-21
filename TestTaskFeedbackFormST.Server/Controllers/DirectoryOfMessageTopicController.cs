@@ -12,14 +12,14 @@ namespace TestTaskFeedbackFormST.Server.Controllers
 
         public DirectoryOfMessageTopicController(IdirectoryOfMessageTopicsService service)
         {
-            this. service = service;;
+            this.service = service;
         }
 
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<DirectoryOfMessageTopic>))]
-        public async Task<IEnumerable<DirectoryOfMessageTopic?>> GetDirectoryOfMessageTopics()
+        public  IEnumerable<string> Get()
         {
-            return await service.RetrieveAllAsync();
+            return service.RetrieveAllAsync();
         }
     }
 }

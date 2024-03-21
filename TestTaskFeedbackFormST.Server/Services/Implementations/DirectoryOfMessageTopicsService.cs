@@ -11,9 +11,9 @@ namespace TestTaskFeedbackFormST.Server.Services
             this.repoTopics = repoTopics;
             
         }
-        public async Task<IEnumerable<DirectoryOfMessageTopic?>> RetrieveAllAsync()
+        public IEnumerable<string> RetrieveAllAsync()
         {
-            return await repoTopics.RetrieveAllAsync();
+            return  repoTopics.RetrieveAllAsync();
         }
     }
 }

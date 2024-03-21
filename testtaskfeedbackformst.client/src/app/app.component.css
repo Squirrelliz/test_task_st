@@ -1,22 +1,15 @@
-﻿:host {
-    max-width: 1280px;
-    padding: 2rem;
-    text-align: center;
+.alert {
+  color: red
 }
 
-tr:nth-child(even) {
-    background: #F2F2F2;
+div {
+  margin: 5px 0;
 }
 
-tr:nth-child(odd) {
-    background: #FFF;
+input.ng-touched.ng-invalid {
+  border: solid red 2px;
 }
 
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-table {
-    margin: 0 auto;
+input.ng-touched.ng-valid {
+  border: solid green 2px;
 }

@@ -22,9 +22,9 @@ namespace TestTaskFeedbackFormST.Server.Controllers
             DTOMessage? m = await serviceMessage.RetrieveAsync(id);
             if (m is null)
             {
-                return NotFound("FUCKING BUG"); // 404 – ресурс не найден
+                return NotFound(); 
             }
-            return Ok(m); // 200 – OK, с клиентом в теле
+            return Ok(m); 
         }
 
         [HttpPost]
@@ -34,11 +34,14 @@ namespace TestTaskFeedbackFormST.Server.Controllers
         {
             if (m is null)
             {
-                return BadRequest(); // 400 – некорректный запрос
+                return BadRequest(); 
             }else if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
+
+            m.phone = '8' + m.phone;
+
             Message? addedMessage = await serviceMessage.CreateAsync(m);
 
             if (addedMessage == null)
@@ -47,7 +50,7 @@ namespace TestTaskFeedbackFormST.Server.Controllers
             }
             else
             {
-                return CreatedAtAction( // 201 – ресурс создан
+                return CreatedAtAction( 
                            nameof(GetMessage),
                           new { id = addedMessage.Id },
                            m);

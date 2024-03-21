@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { FormGroup, FormBuilder,Validators, FormControl} from '@angular/forms';
 class Message {
   name: string;
   phone: string;
@@ -24,18 +24,25 @@ class Message {
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
+
+  protected aFormGroup!: FormGroup;
+ 
+
   public message: Message = new Message("", "", "", "", "");
 
   public receivedMessage: Message = new Message("", "", "", "", "");
   done: boolean = false;
   public topics: string[] = [];
   
-  constructor(private http: HttpClient) { }
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) { }
 
   ngOnInit() {
     this.getTopics();
+    this.aFormGroup = this.formBuilder.group({
+      recaptcha: ['', Validators.required]
+    });
   }
-
+  siteKey: string = "6LdAFaApAAAAAI17rBOnxf5U-dqkcXO97imtAMmV";
   checkString(str: string): boolean {
     return str != null && str.trim() != "";
   }
@@ -52,8 +59,6 @@ export class AppComponent implements OnInit {
   //  this.receivedMessage = message;
   //}
   postMessage(message: Message) {
-
-    message.phone = '8' + message.phone;
     
     return this.http.post("https://localhost:7211/api/Message/CreateMessage", message).subscribe({
       next: (data: any) => {

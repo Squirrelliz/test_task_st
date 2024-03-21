@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "jest-editor-support": "*",
     "ngx-captcha": "^13.0.0",
     "ngx-mask": "^17.0.4",

@@ -5,14 +5,14 @@
   <div>
     <label>Ваше имя</label><br>
     <input name="name" [(ngModel)]="message.name" #name="ngModel" required />
-    <div [hidden]="name.valid || name.untouched" class="alert">
+    <div [hidden]="name.valid || name.untouched" >
       Не указано имя
     </div>
   </div>
   <div>
     <label>Ваш email</label><br>
     <input type="email" name="email" [(ngModel)]="message.email" #email="ngModel" ngControl="email" email required />
-    <div [hidden]="email.valid || email.untouched" class="alert">
+    <div [hidden]="email.valid || email.untouched" >
       Некорректный email
     </div>
   </div>
@@ -20,7 +20,7 @@
     <label>Ваш телефон</label><br>
     <input name="phone" prefix="+7" [(ngModel)]="message.phone" #phone="ngModel" required mask="(000) 000-00-00"
            placeholder="+7 (XXX) XXX-XX-XX" />
-    <div [hidden]="phone.valid || phone.untouched" class="alert">
+    <div [hidden]="phone.valid || phone.untouched" >
       Некорректный телефон
     </div>
 
@@ -34,23 +34,23 @@
       </option>
       }
     </select>
-    <div [hidden]="topics_.valid || topics_.untouched" class="alert">
+    <div [hidden]="topics_.valid || topics_.untouched" >
       Не указана тема
     </div>
   </div>
   <div>
     <label>Ваше сообщение</label><br>
     <input name="message_" type="text" [(ngModel)]="message.messageText" #message_="ngModel" required />
-    <div [hidden]="message_.valid || message_.untouched" class="alert">
+    <div [hidden]="message_.valid || message_.untouched" >
       Некорректное сообщение
     </div>
   </div>
-  <form >
+  <form [formGroup]="aFormGroup" >
     <ngx-recaptcha2 #captchaElem
-                    [siteKey]="siteKey">
+                    [siteKey]="siteKey" name="recaptcha" formControlName="recaptcha" required>
     </ngx-recaptcha2>
   </form>
-  <button (click)="postMessage(message)">Отправить</button>
+  <button (click)="postMessage(message)" [disabled]="name.invalid || email.invalid || phone.invalid || topics_.invalid || message_.invalid || aFormGroup.invalid">Отправить</button>
 </div>
 }
 @if(done){
